@@ -1,0 +1,67 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+h1 {
+    padding: 40px 0px;
+    text-align: center;
+}
+
+table {
+    text-align: center;
+    margin: 0% auto;
+    border: 1px solid black;
+}
+
+td {
+    padding: 4px;
+    width: 8px;
+    height: 20px;
+    border: 1px solid black;
+}
+
+.empty {
+    border: white 0px;
+    height: 10px;
+}
+
+.alkalimetal {
+    background-color: rgb(221, 107, 187);
+}
+
+.alkalineearth {
+    background-color: rgb(125, 93, 214);
+}
+
+.transitionmetal {
+    background-color: rgb(230, 216, 30);
+}
+
+.semimetal {
+    background-color: rgb(129, 78, 41);
+}
+
+.nonmetal {
+    background-color: lightcoral;
+}
+
+.halogen {
+    background-color: orange;
+}
+
+.noblegas {
+    background-color: rgb(53, 127, 224);
+}
+
+.lanthanide {
+    background-color: pink;
+}
+
+.actinide {
+    background-color: pink;
+}
+
+.basicmetal {
+    background-color: seagreen;
+}

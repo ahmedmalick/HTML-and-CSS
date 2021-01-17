@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Chapter # 7 - Forms</h1>
+    <form action="https://www.example.com" method="POST">
+        <fieldset>
+            <legend>Your Details:</legend>
+            <p>Name: <input type="text" name="name"></p>
+            <p>Email: <input type="text" name="email"></p>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Your Review</legend>
+            <p>How did you about us?
+                <select name="platform">
+                    <option value="Google">Google</option>
+                    <option value="Facebook">Facebook</option>
+                    <option value="youtube">Youtube</option>
+                    <option value="Piaic">Piaic</option>
+                    <option value="Friend">Friend</option>
+            </p>
+            </select>
+            <br />
+            <p>Would you visit again?</p>
+            <p>yes
+                <input type="radio" name="visit again">
+                No
+                <input type="radio" name="visit again">
+                Maybe
+                <input type="radio" name="visit again">
+            </p>
+            <p>Commment:</p>
+            <textarea name="comment" cols="30" rows="4"></textarea>
+            <p><input type="checkbox"> Sign me up for email updates</p>
+            <button>submit review</button>
+        </fieldset>
+    </form>
+</body>
+
+</html>

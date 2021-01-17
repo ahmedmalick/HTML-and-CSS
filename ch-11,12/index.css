@@ -1,0 +1,76 @@
+body{
+    padding: 30px;
+    color: rgba(0, 0, 0,0.8);
+}
+
+h1{
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-weight: 1000;
+    letter-spacing: 0.05em;
+}
+
+.heading{
+    text-shadow: 2px 2px 4px rgba(0, 0, 0,0.5);
+    letter-spacing: 0.05em;
+    font-weight: 600;
+}
+
+.para{
+    letter-spacing: 0.02em;
+    font-family: sans-serif;
+    text-align: justify;
+    font-size: 19px;
+    line-height: 1.35em;
+}
+
+.blue{
+    color: blue;
+}
+
+li a{
+    font-size: 18px;
+    text-decoration: none;
+    line-height: 2.5em;
+    font-family: sans-serif;
+    color: rgba(0, 0, 0,0.9);
+}
+
+#cnc{
+    font-family: sans-serif;
+}
+
+#aic{
+    font-family: sans-serif;
+}
+
+#iot{
+    font-family: sans-serif;
+}
+
+#bcc{
+    font-family: sans-serif;
+}
+
+#cnc::first-letter{
+    font-size: 150%;
+}
+
+#aic::first-letter{
+    font-size: 150%;
+}
+
+#bcc::first-letter{
+    font-size: 150%;
+}
+
+#iot::first-letter{
+    font-size: 150%;
+}
+
+.github{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 800;
+    font-size: 120%;
+}
