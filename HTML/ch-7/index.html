@@ -10,33 +10,44 @@
     <form action="https://www.example.com" method="POST">
         <fieldset>
             <legend>Your Details:</legend>
-            <p>Name: <input type="text" name="name"></p>
-            <p>Email: <input type="text" name="email"></p>
+            <p>
+                <label for="name">Name: </label>
+                <input type="text" name="name" id="name">
+            </p>
+
+            <p>
+                <label for="email">Email: </label>
+                <input type="email" name="email" id="email">
+            </p>
         </fieldset>
         <br>
         <fieldset>
             <legend>Your Review</legend>
-            <p>How did you about us?
-                <select name="platform">
+            <p>How did you hear about us?
+                <select name="platform" id="platfrom">
                     <option value="Google">Google</option>
                     <option value="Facebook">Facebook</option>
                     <option value="youtube">Youtube</option>
                     <option value="Piaic">Piaic</option>
                     <option value="Friend">Friend</option>
+
+                </select>
             </p>
-            </select>
-            <br />
-            <p>Would you visit again?</p>
-            <p>yes
-                <input type="radio" name="visit again">
-                No
-                <input type="radio" name="visit again">
-                Maybe
-                <input type="radio" name="visit again">
+            <label>Would you visit again? </label>
+            <p>
+                <label for="yes">yes</label>
+                <input type="radio" name="visit again" id="yes">
+                <label for="no"> No</label>
+                <input type="radio" name="visit again" id="no">
+
+                <label for="maybe">Maybe</label>
+                <input type="radio" name="visit again" id="maybe">
             </p>
+
             <p>Commment:</p>
-            <textarea name="comment" cols="30" rows="4"></textarea>
-            <p><input type="checkbox"> Sign me up for email updates</p>
+            <textarea name="comment" cols="30" rows="4" id="comment"></textarea>
+
+            <p><input type="checkbox">Sign me up for email updates</input></p>
             <button>submit review</button>
         </fieldset>
     </form>
